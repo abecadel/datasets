@@ -37,7 +37,7 @@ This dataset is designed for machine translation from English to Xhosa."""
 _URLs = {"train": "https://object.pouta.csc.fi/OPUS-XhosaNavy/v1/moses/en-xh.txt.zip"}
 
 
-class OpusXhosanavy(datasets.GeneratorBasedBuilder):
+class NewDataset(datasets.GeneratorBasedBuilder):
 
     VERSION = datasets.Version("1.0.0")
 
